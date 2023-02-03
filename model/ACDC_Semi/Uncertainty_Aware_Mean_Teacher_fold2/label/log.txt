@@ -1,0 +1,2 @@
+[19:59:49.442] Namespace(root_path='../data/ACDC', exp='ACDC_Semi/Uncertainty_Aware_Mean_Teacher', model='unet', fold='fold2', sup_type='label', max_iterations=30000, batch_size=12, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=2022, num_classes=4, labeled_bs=6, labeled_num=4, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0)
+[19:59:49.585] 22 iterations per epoch

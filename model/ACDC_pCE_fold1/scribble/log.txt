@@ -1,0 +1,30 @@
+[17:56:47.568] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:43:20.550] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:53:05.314] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:53:44.005] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:54:57.609] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:55:34.591] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:56:03.971] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:56:45.562] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:00:44.837] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:00:44.952] 63 iterations per epoch
+[20:01:14.708] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:02:45.049] 63 iterations per epoch
+[20:03:24.481] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:03:39.047] 63 iterations per epoch
+[20:04:35.045] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:04:35.337] 63 iterations per epoch
+[20:09:40.413] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:09:40.515] 63 iterations per epoch
+[20:10:09.185] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:10:09.477] 63 iterations per epoch
+[21:26:10.158] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:26:10.447] 63 iterations per epoch
+[21:32:36.031] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:32:36.328] 63 iterations per epoch
+[21:33:36.884] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:33:36.981] 63 iterations per epoch
+[20:10:40.036] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:10:40.145] 63 iterations per epoch
+[20:11:22.593] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[20:11:22.874] 63 iterations per epoch
