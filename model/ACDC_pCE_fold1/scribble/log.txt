@@ -28,3 +28,26 @@
 [20:10:40.145] 63 iterations per epoch
 [20:11:22.593] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
 [20:11:22.874] 63 iterations per epoch
+[21:23:16.502] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:23:16.606] 63 iterations per epoch
+[22:59:32.841] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[22:59:32.953] 63 iterations per epoch
+[23:10:57.472] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[23:10:57.583] 63 iterations per epoch
+[23:11:07.242] iteration 1 : loss : 1.443261, loss_ce: 1.443261
+[23:11:14.419] iteration 2 : loss : 1.302162, loss_ce: 1.302162
+[23:11:21.693] iteration 3 : loss : 1.121031, loss_ce: 1.121031
+[23:11:27.931] iteration 4 : loss : 0.991959, loss_ce: 0.991959
+[23:11:34.697] iteration 5 : loss : 0.906667, loss_ce: 0.906667
+[23:11:41.926] iteration 6 : loss : 0.817247, loss_ce: 0.817247
+[23:11:48.950] iteration 7 : loss : 0.795242, loss_ce: 0.795242
+[23:11:56.011] iteration 8 : loss : 0.732951, loss_ce: 0.732951
+[23:12:03.409] iteration 9 : loss : 0.720142, loss_ce: 0.720142
+[23:12:09.737] iteration 10 : loss : 0.741357, loss_ce: 0.741357
+[23:12:16.048] iteration 11 : loss : 0.756814, loss_ce: 0.756814
+[23:12:23.440] iteration 12 : loss : 0.754300, loss_ce: 0.754300
+[23:12:30.430] iteration 13 : loss : 0.681882, loss_ce: 0.681882
+[23:12:36.665] iteration 14 : loss : 0.665195, loss_ce: 0.665195
+[23:12:43.122] iteration 15 : loss : 0.643853, loss_ce: 0.643853
+[23:12:50.084] iteration 16 : loss : 0.576143, loss_ce: 0.576143
+[23:12:58.002] iteration 17 : loss : 0.635824, loss_ce: 0.635824

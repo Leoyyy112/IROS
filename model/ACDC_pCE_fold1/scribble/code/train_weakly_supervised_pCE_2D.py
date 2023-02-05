@@ -26,6 +26,8 @@ from networks.net_factory import net_factory
 from utils import losses, metrics, ramps
 from val_2D import test_single_volume, test_single_volume_ds
 
+import dill as pickle
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/ACDC', help='Name of Experiment')
@@ -53,6 +55,8 @@ parser.add_argument('--seed', type=int,  default=2022, help='random seed')
 args = parser.parse_args()
 
 
+def worker_init_fn(worker_id):
+    random.seed(args.seed + worker_id)
 def train(args, snapshot_path):
     base_lr = args.base_lr
     num_classes = args.num_classes
@@ -66,8 +70,7 @@ def train(args, snapshot_path):
     db_val = BaseDataSets(base_dir=args.root_path,
                           fold=args.fold, split="val")
 
-    def worker_init_fn(worker_id):
-        random.seed(args.seed + worker_id)
+
 
     trainloader = DataLoader(db_train, batch_size=batch_size, shuffle=True,
                              num_workers=8, pin_memory=True, worker_init_fn=worker_init_fn)
