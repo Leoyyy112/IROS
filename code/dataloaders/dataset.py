@@ -44,7 +44,7 @@ class BaseDataSets(Dataset):
         train_ids, test_ids = self._get_fold_ids(fold)
         if self.split == 'train':
             self.all_slices = os.listdir(
-                self._base_dir + "/ACDC_training_slices")
+                self._base_dir + "/data_training")   #'/data_training'   #'/ACDC_training_slices'
             self.sample_list = []
             for ids in train_ids:
                 new_data_list = list(filter(lambda x: re.match(
@@ -65,9 +65,9 @@ class BaseDataSets(Dataset):
         print("total {} samples".format(len(self.sample_list)))
 
     def _get_fold_ids(self, fold):
-        all_cases_set = ["patient{:0>3}".format(i) for i in range(1, 101)]
+        all_cases_set = ["patient_{:0>3}".format(i) for i in range(1, 101)]
         fold1_testing_set = [
-            "patient{:0>3}".format(i) for i in range(1, 21)]
+            "patient_{:0>3}".format(i) for i in range(1, 21)]
         fold1_training_set = [
             i for i in all_cases_set if i not in fold1_testing_set]
 
@@ -110,7 +110,7 @@ class BaseDataSets(Dataset):
         case = self.sample_list[idx]
         if self.split == "train":
             h5f = h5py.File(self._base_dir +
-                            "/ACDC_training_slices/{}".format(case), 'r')
+                            "/data_training/{}".format(case), 'r') # /data_training/{}
         else:
             h5f = h5py.File(self._base_dir +
                             "/ACDC_training_volumes/{}".format(case), 'r')

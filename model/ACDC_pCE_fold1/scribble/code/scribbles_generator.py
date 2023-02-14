@@ -31,7 +31,7 @@ import glob
 import math
 import random
 import sys
-
+import os
 import cv2
 import numpy as np
 import SimpleITK as sitk
@@ -257,19 +257,54 @@ def generate_scribble(label, iterations, cut_branch=True):
 
 
 if __name__ == "__main__":
+    # num = 0
+    # for i in sorted(glob.glob("../imgs/*_lab.nii.gz")):
+    #     print("{} Begin".format(i.split("/")[-1]))
+    #     itk_data = sitk.ReadImage(i)
+    #     label = sitk.GetArrayFromImage(itk_data)
+    #     print(np.shape(label))#(19,384,384)
+    #     print(np.max(label))# 2
+    #     print(np.unique(label))#[0,1,2]
+    #     num_classes = 3  # total segmentation classes
+    #     output = generate_scribble(label, tuple([1, num_classes-1]))
+    #     # ignore index for partially cross-entropy loss
+    #     output[output == 0] = 255
+    #     output[output == num_classes] = 0
+    #     print(np.shape(output))#(19,384,384)
+    #     itk_scr = sitk.GetImageFromArray(output)
+    #     itk_scr.CopyInformation(itk_data)
+    #
+    #     sitk.WriteImage(itk_scr, i.replace('_lab.nii.gz', '_scribble.nii.gz'))
+    #     print("{} End".format(i.split("/")[-1]))
+    #     print(num)
+    #     num += 1
+
+    img_dir = "/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/Right_Prograsp_Forceps_labels_num"
+    output_dir = "/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/Right_Prograsp_Forceps_scribbles/"
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     num = 0
-    for i in sorted(glob.glob("../imgs/*_lab.nii.gz")):
+    for i in sorted(glob.glob(os.path.join(img_dir, "*.png"))):
         print("{} Begin".format(i.split("/")[-1]))
         itk_data = sitk.ReadImage(i)
         label = sitk.GetArrayFromImage(itk_data)
-        num_classes = 3  # total segmentation classes
-        output = generate_scribble(label, tuple([1, num_classes-1]))
+        print(np.shape(label))#(1080,1920)
+        print(np.max(label))# 3
+        label = label.reshape(1,1080,1920)
+        num_classes = 4  # total segmentation classes  [0,1,2,3]
+        output = generate_scribble(label, tuple([1, num_classes - 1]))
         # ignore index for partially cross-entropy loss
         output[output == 0] = 255
         output[output == num_classes] = 0
+        print(np.shape(output))
+        output= output.reshape(1080,1920)
         itk_scr = sitk.GetImageFromArray(output)
         itk_scr.CopyInformation(itk_data)
-        sitk.WriteImage(itk_scr, i.replace('_lab.nii.gz', '_scribble.nii.gz'))
+        output_file = os.path.join(output_dir, i.split("/")[-1].replace(".png", "_scribble.png"))
+        sitk.WriteImage(itk_scr, output_file)
         print("{} End".format(i.split("/")[-1]))
         print(num)
         num += 1
+
+

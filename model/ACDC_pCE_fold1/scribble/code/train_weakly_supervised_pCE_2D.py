@@ -30,7 +30,7 @@ import dill as pickle
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
-                    default='../data/ACDC', help='Name of Experiment')
+                    default='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data/datas', help='Name of Experiment') #'/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data/datas'  #'../data/ACDC'
 parser.add_argument('--exp', type=str,
                     default='ACDC_pCE', help='experiment_name')
 parser.add_argument('--fold', type=str,

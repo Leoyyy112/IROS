@@ -51,3 +51,36 @@
 [23:12:43.122] iteration 15 : loss : 0.643853, loss_ce: 0.643853
 [23:12:50.084] iteration 16 : loss : 0.576143, loss_ce: 0.576143
 [23:12:58.002] iteration 17 : loss : 0.635824, loss_ce: 0.635824
+[21:02:29.909] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:02:30.019] 63 iterations per epoch
+[21:02:38.430] iteration 1 : loss : 1.443261, loss_ce: 1.443261
+[21:02:44.852] iteration 2 : loss : 1.302162, loss_ce: 1.302162
+[21:57:41.494] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[21:57:41.592] 63 iterations per epoch
+[21:57:49.887] iteration 1 : loss : 1.443261, loss_ce: 1.443261
+[21:57:55.690] iteration 2 : loss : 1.302162, loss_ce: 1.302162
+[21:58:01.438] iteration 3 : loss : 1.121031, loss_ce: 1.121031
+[21:58:07.210] iteration 4 : loss : 0.991959, loss_ce: 0.991959
+[21:58:12.930] iteration 5 : loss : 0.906667, loss_ce: 0.906667
+[21:58:18.621] iteration 6 : loss : 0.817247, loss_ce: 0.817247
+[21:58:24.295] iteration 7 : loss : 0.795242, loss_ce: 0.795242
+[21:58:30.030] iteration 8 : loss : 0.732951, loss_ce: 0.732951
+[21:58:35.720] iteration 9 : loss : 0.720142, loss_ce: 0.720142
+[21:58:41.429] iteration 10 : loss : 0.741357, loss_ce: 0.741357
+[21:58:47.150] iteration 11 : loss : 0.756814, loss_ce: 0.756814
+[21:58:52.922] iteration 12 : loss : 0.754300, loss_ce: 0.754300
+[09:40:23.341] Namespace(root_path='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:43:35.975] Namespace(root_path='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:45:59.023] Namespace(root_path='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:51:47.292] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:51:47.394] 63 iterations per epoch
+[09:51:55.834] iteration 1 : loss : 1.443261, loss_ce: 1.443261
+[09:52:01.731] iteration 2 : loss : 1.302162, loss_ce: 1.302162
+[09:52:13.415] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:57:10.665] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[09:57:22.836] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[10:12:43.967] 63 iterations per epoch
+[10:14:08.910] iteration 1 : loss : 1.443261, loss_ce: 1.443261
+[18:56:47.271] Namespace(root_path='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data/datas', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:06:30.535] Namespace(root_path='../data/ACDC', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)
+[19:29:48.759] Namespace(root_path='/Users/liuyang/IROS-Segmentation/instrument_1_4_training/instrument_dataset_1/ground_truth/data/datas', exp='ACDC_pCE', fold='fold1', sup_type='scribble', model='unet', num_classes=4, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.03, patch_size=[256, 256], seed=2022)

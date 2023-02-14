@@ -44,7 +44,7 @@ class BaseDataSets(Dataset):
         train_ids, test_ids = self._get_fold_ids(fold)
         if self.split == 'train':
             self.all_slices = os.listdir(
-                self._base_dir + "/ACDC_training_slices")
+                self._base_dir + "/data_training")   #'/data_training'   #'/ACDC_training_slices'
             self.sample_list = []
             for ids in train_ids:
                 new_data_list = list(filter(lambda x: re.match(
@@ -110,7 +110,7 @@ class BaseDataSets(Dataset):
         case = self.sample_list[idx]
         if self.split == "train":
             h5f = h5py.File(self._base_dir +
-                            "/ACDC_training_slices/{}".format(case), 'r')
+                            "/data_training/{}".format(case), 'r') # /data_training/{}
         else:
             h5f = h5py.File(self._base_dir +
                             "/ACDC_training_volumes/{}".format(case), 'r')
